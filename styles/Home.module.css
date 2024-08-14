@@ -1,0 +1,81 @@
+/* /styles/Home.module.css */
+.container {
+  font-family: 'Arial', sans-serif;
+}
+
+.banner {
+  background-image: url('/public/banner-tours.jpg');
+  background-size: cover;
+  background-color: #7d9ab467;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+.botonct {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.h2{
+
+ text-align: center;
+
+}
+.carouselSection {
+  margin: 40px 40;
+  text-align: center;
+}
+
+.Tourspopular {
+  padding: 40px 20px;
+}
+
+.toursGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tourCard {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.tourImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tourDetails {
+  padding: 10px;
+}
+
+.rsBoton {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
