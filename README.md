@@ -2,9 +2,28 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+## Requisitos
+
+- Node.js (versión 14 o superior)
+- npm que se incluye Node.js
+
+# WED-TOURS
+
+## Descripción
+
+Este proyecto es una web simple de venta de tours creada con Next.js. La aplicación muestra un banner en la página principal y una lista de tourS Y un carrusel de imagenes basados en la experiencia y en los tours,estos son obtenidos desde una API interna implementada en Next.js.
+
 First, run the development server:
 
 ```bash
+
+ git clone https://github.com/EDWINGOMEZ833/mi-nextjs-proyecto
+ cd WED-TOURS
+
+#dependencias
+npm indtall
+
+#Ejecucion
 npm run dev
 # or
 yarn dev
@@ -13,6 +32,7 @@ pnpm dev
 # or
 bun dev
 ```
+# sitio wed Localhost que nos devuelve al ejecutar
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
